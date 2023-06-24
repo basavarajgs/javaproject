@@ -1,5 +1,5 @@
 pipeline {
- agent { label 'master'}
+ agent { label 'jenkins'}
  stages { 
    stage ('BUILD') {
      steps {
